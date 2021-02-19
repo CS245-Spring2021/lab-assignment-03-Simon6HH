@@ -4,6 +4,5 @@ TIME COMPLEXITY: The WiggleSort function has a time complexity of Big O(n) becau
 that has 1 line that executes once. Then lines within the for loop that could execute 8 times. Because of this the total
 execution is 8(n) + 1 which simplifies to O(n).
 
-SPACE COMPLEXITY: Since there are no constant terms in this function and we have a for loop that is fully dependent on N,
-the space complexity is Big O(n). A linear space complexity with an allocated N sized array is fully dependent on the
-array size which is all the space complexity that this functions uses.
+SPACE COMPLEXITY: Since there are no constant terms and the space required does not increase with the size of n or nums.length. Using this 
+we have 0 + 0N which is just a constant term 0 making the space complexity for this function Big O(1) constant. 

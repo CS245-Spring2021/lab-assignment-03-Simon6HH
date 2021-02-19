@@ -19,7 +19,7 @@ public class Test {
         }
 
         System.out.println("\nNums after wiggle sort: ");
-        int test[] = WiggleSort.wiggleSort(nums); //Calls wigglesort
+        int test[] = WiggleSort.WiggleSort(nums); //Calls wigglesort
         for(int i=0; i< test.length; i++){
             System.out.print(test[i]);
         }
